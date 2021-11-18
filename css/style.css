@@ -1,0 +1,88 @@
+body{
+    padding: 0!important;
+}
+
+.main-container{
+    margin: 0!important;
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    overflow-y: auto;
+    background-image:  url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg)
+}
+
+
+.main-container > .form-container{
+    /*border : solid red 1px;*/
+    height: fit-content;
+    margin: auto;
+}
+
+header{
+    text-align: center;
+    color: white;
+}
+
+header h1{
+    padding: 0;
+    margin-bottom: 10px;
+}
+header p{
+    /*border: solid red 1px;*/
+    display: block;
+    /*max-width: 350px;*/
+    text-align: center;
+    margin: auto;
+}
+
+.main-container  form{
+    background-color: rgba(27, 27, 50, 0.8);
+    max-width: fit-content;
+    border-radius: 5px;
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.main-container  form .form-field{
+    /*border:solid red 1px;*/
+    min-height: 40px;
+    color: white;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.main-container  form .form-field label{
+    display: block;
+    color: white;
+    padding-bottom: 10px;
+}
+
+
+.input{
+    /*width: 100%;*/
+    min-width: 400px;
+    height: 40px;
+    outline: 0;
+    border: 0;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+
+.main-container  form .form-field textarea{
+    min-width: 400px;
+}
+
+.main-container  form .form-field button{
+    min-width: 400px;
+    height: 40px;
+    background-color: #37af65;
+    outline: 0;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    margin-top: 20px;
+}
